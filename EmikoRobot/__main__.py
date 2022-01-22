@@ -369,7 +369,6 @@ def emiko_about_callback(update, context):
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
-                
                   [
                     InlineKeyboardButton(text="♤ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ♤", url="t.me/centralcomtg"),
                     InlineKeyboardButton(text="🔥ᴅᴇᴠ", callback_data="t.me/livefru"),
