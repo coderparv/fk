@@ -87,7 +87,7 @@ PM_START_TEXT = """
 × *Uptime:* `{}`
 × `{}` *users, across* `{}` *chats.*
 ────────────────────────
-🍂 Providing you best service through /help command don't forget to join [UPDATES](http://t.me/stree_robot) .
+🍂 Providing you best service through /help command don't forget to join [UPDATES](http://t.me/streex) .
 """
 
 buttons = [
@@ -102,7 +102,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="🔘𝐔𝐩𝐝𝐚𝐭𝐞𝐬🔘", url="t.me/stree_robot"),
+            text="🔘𝐔𝐩𝐝𝐚𝐭𝐞𝐬🔘", url="t.me/streex"),
     ],
     [
         InlineKeyboardButton(
