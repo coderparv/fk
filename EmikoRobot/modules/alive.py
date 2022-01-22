@@ -16,7 +16,7 @@ async def awake(event):
   TEXT = f"**Hi [{event.sender.first_name}](tg://user?id={event.sender.id}), I'm Emiko Robot.** \n\n"
   TEXT += "⚪ **I'm Working Properly** \n\n"
   TEXT += f"⚪ **My Master : [Masked Coder](https://t.me/headmater_in)** \n\n"
-  TEXT += f"⚪ **Codesfru Version :** `{stree delta}` \n\n"
+  TEXT += f"⚪ **Codesfru Version :** `{stree_delta}` \n\n"
   TEXT += f"⚪ **Telethon Version :** `{tlhver}` \n\n"
   TEXT += f"⚪ **Pyrogram Version :** `{pyrover}` \n\n"
   TEXT += "**Thanks For Adding Me Here ❤️**"
