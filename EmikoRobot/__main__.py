@@ -92,17 +92,21 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text="About Emiko Robot", callback_data="emiko_"),
+        InlineKeyboardButton(text="✧𝚂𝓉𝚛𝚎𝚎✧ 𝓘𝓝𝓕𝓞", callback_data="emiko_"),
     ],
     [
-        InlineKeyboardButton(text="Get Help", callback_data="help_back"),
+        InlineKeyboardButton(text="✴️𝐒𝐞𝐫𝐯𝐢𝐜𝐞𝐬 ✴️", callback_data="help_back"),
         InlineKeyboardButton(
-            text="Try inline!​​", switch_inline_query_current_chat=""
+            text="▫️𝓘𝓝𝓛𝓘𝓝𝓔▫️", switch_inline_query_current_chat=""
         ),
     ],
     [
         InlineKeyboardButton(
-            text="➗ Add Emiko To Your Group ➗", url="t.me/EmiexRobot?startgroup=new"),
+            text="➗ 🔘𝐔𝐩𝐝𝐚𝐭𝐞𝐬🔘 ➗", url="t.me/stree_robot"),
+    ],
+    [
+        InlineKeyboardButton(
+            text="➗ 💐 𝓘𝓷𝓿𝓲𝓽𝓮 ✧𝚂𝓉𝚛𝚎𝚎✧ 𝓽𝓸 𝔂𝓸𝓾𝓻 𝓬𝓱𝓪𝓽 ➗", url="t.me/streerobot?startgroup=new"),
     ],
 ]
 
