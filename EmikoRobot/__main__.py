@@ -106,7 +106,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="➗ 💐 𝓘𝓷𝓿𝓲𝓽𝓮 ✧𝚂𝓉𝚛𝚎𝚎✧ 𝓽𝓸 𝔂𝓸𝓾𝓻 𝓬𝓱𝓪𝓽 ➗", url="t.me/streerobot?startgroup=new"),
+            text="💐 �𝐈𝐍𝐕𝐈𝐓𝐄 ✧𝚂𝓉𝚛𝚎𝚎✧ 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐂𝐇𝐀𝐓", url="t.me/streerobot?startgroup=new"),
     ],
 ]
 
