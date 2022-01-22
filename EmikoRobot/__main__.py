@@ -97,7 +97,7 @@ buttons = [
     [
         InlineKeyboardButton(text="✴️𝐒𝐞𝐫𝐯𝐢𝐜𝐞𝐬 ✴️", callback_data="help_back"),
         InlineKeyboardButton(
-            text="▫️𝓘𝓝𝓛𝓘𝓝𝓔▫️", switch_inline_query_current_chat=""
+            text="▫️𝐈𝐍𝐋𝐈𝐍𝐄▫️", switch_inline_query_current_chat=""
         ),
     ],
     [
