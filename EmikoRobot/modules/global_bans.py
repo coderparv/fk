@@ -43,7 +43,7 @@ from EmikoRobot.modules.helper_funcs.misc import send_to_list
 GBAN_ENFORCE_GROUP = 6
 
 GBAN_ERRORS = {
-    "User is an administrator of the chat",
+    "User is an admin of the chat",
     "Chat not found",
     "Not enough rights to restrict/unrestrict chat member",
     "User_not_participant",
@@ -83,7 +83,7 @@ def gban(update: Update, context: CallbackContext):
 
     if not user_id:
         message.reply_text(
-            "You don't seem to be referring to a user or the ID specified is incorrect..",
+            "something is incorrect please recheck @codesfru ..",
         )
         return
 
@@ -95,13 +95,13 @@ def gban(update: Update, context: CallbackContext):
 
     if int(user_id) in DRAGONS:
         message.reply_text(
-            "I spy, with my little eye... a disaster! Why are you guys turning on each other?",
+            "aps mai mat lado yrr?",
         )
         return
 
     if int(user_id) in DEMONS:
         message.reply_text(
-            "OOOH someone's trying to gban a Demon Disaster! *grabs popcorn*",
+            "JNL GBAN YOUR DAD?! *grabs popcorn*",
         )
         return
 
@@ -117,7 +117,7 @@ def gban(update: Update, context: CallbackContext):
         message.reply_text("You uhh...want me to punch myself?")
         return
 
-    if user_id in [777000, 1087968824]:
+    if user_id in [777000, 1406657231]:
         message.reply_text("Fool! You can't attack Telegram's native tech!")
         return
 
@@ -258,7 +258,7 @@ def gban(update: Update, context: CallbackContext):
 
     if gban_time > 60:
         gban_time = round((gban_time / 60), 2)
-        message.reply_text("Done! Gbanned.", parse_mode=ParseMode.HTML)
+        message.reply_text("STREE ROBOT COMPLETED GBANNED.", parse_mode=ParseMode.HTML)
     else:
         message.reply_text("Done! Gbanned.", parse_mode=ParseMode.HTML)
 
@@ -266,7 +266,7 @@ def gban(update: Update, context: CallbackContext):
         bot.send_message(
             user_id,
             "#EVENT"
-            "You have been marked as Malicious and as such have been banned from any future groups we manage."
+            "You have been marked as Malicious and as such have been banned from any future groups we manage report issue in @centralcomtg ."
             f"\n<b>Reason:</b> <code>{html.escape(user.reason)}</code>"
             f"</b>Appeal Chat:</b> @{SUPPORT_CHAT}",
             parse_mode=ParseMode.HTML,
@@ -287,7 +287,7 @@ def ungban(update: Update, context: CallbackContext):
 
     if not user_id:
         message.reply_text(
-            "You don't seem to be referring to a user or the ID specified is incorrect..",
+            "something wen wrong report it to @codesfru ..",
         )
         return
 
@@ -383,9 +383,9 @@ def ungban(update: Update, context: CallbackContext):
 
     if ungban_time > 60:
         ungban_time = round((ungban_time / 60), 2)
-        message.reply_text(f"Person has been un-gbanned. Took {ungban_time} min")
+        message.reply_text(f"user has been un-gbanned by stree robo @streex . Took {ungban_time} min")
     else:
-        message.reply_text(f"Person has been un-gbanned. Took {ungban_time} sec")
+        message.reply_text(f"user has been un-gbanned by stree robo @streex . Took {ungban_time} sec")
 
 
 @support_plus
@@ -427,7 +427,7 @@ def check_and_ban(update, user_id, should_message=True):
         update.effective_chat.ban_member(user_id)
         if should_message:
             update.effective_message.reply_text(
-                f"<b>Alert</b>: this user is globally banned.\n"
+                f"<b>Alert</b>: this user is globally banned by stree robot .\n"
                 f"<code>*bans them from here*</code>.\n"
                 f"<b>Appeal chat</b>: {SPAMWATCH_SUPPORT_CHAT}\n"
                 f"<b>User ID</b>: <code>{sw_ban.id}</code>\n"
@@ -488,7 +488,7 @@ def gbanstat(update: Update, context: CallbackContext):
             sql.enable_gbans(update.effective_chat.id)
             update.effective_message.reply_text(
                 "Antispam is now enabled ✅ "
-                "I am now protecting your group from potential remote threats!",
+                "Stree robot will protect your chats from anti elements powerd by @streex !",
             )
         elif args[0].lower() in ["off", "no"]:
             sql.disable_gbans(update.effective_chat.id)
@@ -512,7 +512,7 @@ def __stats__():
 def __user_info__(user_id):
     is_gbanned = sql.is_user_gbanned(user_id)
     text = "Malicious: <b>{}</b>"
-    if user_id in [777000, 1087968824]:
+    if user_id in [777000, 1406657231]:
         return ""
     if user_id == dispatcher.bot.id:
         return ""
