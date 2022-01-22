@@ -369,21 +369,22 @@ def emiko_about_callback(update, context):
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
-                  [
-                    InlineKeyboardButton(text="♤ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ♤", url="t.me/centralcomtg"),
-                    InlineKeyboardButton(text="🔥ᴅᴇᴠ", callback_data="t.me/livefru"),
-                 ],
-                  [
-                    InlineKeyboardButton(text="ʙᴏᴛ ʟɪꜱᴛ💥", url="t.me/codesfru"),
-                    InlineKeyboardButton(text="ᴅɪᴠɪɴᴇꜱ ɴᴇᴛᴡᴏʀᴋ℠", url="t.me/Divinesnetwork"),
+                [
+                 [
+                    InlineKeyboardButton(text="Admins", callback_data="emiko_admin"),
+                    InlineKeyboardButton(text="Notes", callback_data="emiko_notes"),
                  ],
                  [
-                    InlineKeyboardButton(text="ʀᴇᴘᴏꜱɪᴛᴏʀʏ🌥", url="https://telegra.ph/%F0%9D%9A%82%F0%9D%93%89%F0%9D%9A%9B%F0%9D%9A%8E%F0%9D%9A%8E-01-22"),
+                    InlineKeyboardButton(text="Support", callback_data="emiko_support"),
+                    InlineKeyboardButton(text="Credits", callback_data="emiko_credit"),
+                 ],
+                 [
+                    InlineKeyboardButton(text="Source Code", url="https://github.com/kennedy-ex/EmikoRobot"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_back"),
                  ]
-                
+                ]
             ),
         )
     elif query.data == "emiko_back":
