@@ -373,6 +373,10 @@ def emiko_about_callback(update, context):
                     InlineKeyboardButton(text="♤ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ♤", url="t.me/centralcomtg"),
                     InlineKeyboardButton(text="🔥ᴅᴇᴠ", callback_data="t.me/livefru"),
                  ],
+                  [
+                    InlineKeyboardButton(text="ʙᴏᴛ ʟɪꜱᴛ💥", url="t.me/codesfru"),
+                    InlineKeyboardButton(text="ᴅɪᴠɪɴᴇꜱ ɴᴇᴛᴡᴏʀᴋ℠", url="t.me/Divinesnetwork"),
+                 ],
                  [
                     InlineKeyboardButton(text="ʀᴇᴘᴏꜱɪᴛᴏʀʏ🌥", url="https://telegra.ph/%F0%9D%9A%82%F0%9D%93%89%F0%9D%9A%9B%F0%9D%9A%8E%F0%9D%9A%8E-01-22"),
                  ],
@@ -435,7 +439,7 @@ def emiko_about_callback(update, context):
                  [
                     InlineKeyboardButton(text="Support", url="t.me/emikosupport"),
                     InlineKeyboardButton(text="Updates", url="https://t.me/KennedyProject"),
-                 ],
+                 ], 
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_"),
                  
