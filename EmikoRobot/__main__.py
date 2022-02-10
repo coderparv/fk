@@ -82,12 +82,12 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hello {} !*
-🍂 ✧𝚂𝓉𝚛𝚎𝚎✧ Is here to manage your chat [❤️‍🔥](https://telegra.ph/file/4d8b7ca18168f1c4ef0ed.mp4)
+💝 its XYZ BOOKS ROBO [☑️](https://telegra.ph/file/3fa29393528960e18bbbc.jpg)
 ────────────────────────
 × *Uptime:* `{}`
-× `{}` *users, across* `{}` *chats.*
+× `{}` *students, across* `{}` *channels.*
 ────────────────────────
-🍂 Providing you best service through /help command don't forget to join [UPDATES](http://t.me/streex) .
+💝AIM TO PROVIDE YOU BEST QUALITY STUDY STUFF FOR YOUR EXAM [XYZ BOOKS](http://t.me/xyz_books) .
 """
 
 buttons = [
