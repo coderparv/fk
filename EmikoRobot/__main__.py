@@ -82,7 +82,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hello {} !*
-💝 its XYZ BOOKS ROBO [☑️](https://telegra.ph/file/3fa29393528960e18bbbc.jpg)
+💝its XYZ BOOKS ROBO [☑️](https://telegra.ph/file/3fa29393528960e18bbbc.jpg)
 ────────────────────────
 × *Uptime:* `{}`
 × `{}` *students, across* `{}` *channels.*
